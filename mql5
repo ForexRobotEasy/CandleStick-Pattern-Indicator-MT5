@@ -1,0 +1,58 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                           CandleStick Pattern Indicator MT5                                         |
+//|                                                         forexroboteasy.com                                                       |
+//|                                                           Forex Robot Easy Team                                                      |
+//+------------------------------------------------------------------+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+#property version   '1.00'
+
+//+------------------------------------------------------------------+
+//| Indicator initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Add necessary initialization code here
+   
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Custom indicator iteration function                                  |
+//+------------------------------------------------------------------+
+int OnCalculate(const int rates_total,
+                const int prev_calculated,
+                const datetime &time[],
+                const double &open[],
+                const double &high[],
+                const double &low[],
+                const double &close[],
+                const long &tick_volume[],
+                const long &volume[],
+                const int &spread[])
+{
+   // Add code to calculate candlestick patterns here
+
+   // Identify and highlight the occurrence of each candlestick pattern on the chart
+   
+   // Provide visual and/or audio alerts when a candlestick pattern is detected
+   
+   // Display the name and description of each candlestick pattern on the chart
+   
+   // Allow customization of the appearance and behavior of the indicator
+   
+   // Enable the option to filter specific candlestick patterns based on user preferences
+   
+   return(rates_total);
+}
+
+//+------------------------------------------------------------------+
+//| Indicator deinitialization function                                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Add necessary deinitialization code here
+}
+
+//+------------------------------------------------------------------+
